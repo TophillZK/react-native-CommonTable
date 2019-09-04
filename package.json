@@ -1,28 +1,27 @@
-
 {
   "name": "react-native-commontable",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "react native table component, pure javascript solution",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/TophillZK/react-native-commontable"
-    },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TophillZK/react-native-commontable"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-        "react-component",
-        "react-native",
-        "ios",
-        "android",
-        "table"
+    "react-component",
+    "react-native",
+    "ios",
+    "android",
+    "table"
   ],
   "author": "TophillZK",
   "license": "",
   "dependencies": {
     "prop-types": "^15.6.2"
   },
-  "devDependencies":{},
+  "devDependencies": {},
   "peerDependencies": {}
 }
