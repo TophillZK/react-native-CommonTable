@@ -1,7 +1,7 @@
 
 {
   "name": "react-native-commontable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "react native table component, pure javascript solution",
     "repository": {
         "type": "git",
@@ -20,8 +20,9 @@
   ],
   "author": "TophillZK",
   "license": "",
-  "peerDependencies": {
-    "react": "16.8.6",
-    "react-native": "0.60.4"
-  }
+  "dependencies": {
+    "prop-types": "^15.6.2"
+  },
+  "devDependencies":{},
+  "peerDependencies": {}
 }
