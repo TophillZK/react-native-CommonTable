@@ -67,5 +67,13 @@ const styles = StyleSheet.create({
 ### Component props
 | Prop | Required | Type | default | description |
 | ---- | ---- | ----| ---- | ---- |
-| tableHeader | YES | array | none | table header data |
-| tableData | YES | array | none | table content data,two-dimensional array [[]] |
+| tableHeader | YES | array | none | Table header array |
+| tableData | YES | array | none | Table data array,two-dimensional array [[]] |
+| columnsWidth | NO | array | none | Column width,if set,tableWidth does not work |
+| tableWidth | NO | number | none | Table width,if columnsWidth and tableWidth is null,Table width=screen width |
+| tableHeaderStyle | NO | array or object | none | |
+| textHeaderStyle | NO | array or object | none | |
+| tableDataStyle | NO | array or object | none | |
+| textDataStyle | NO | array or object | none | |
+| borderWidth | NO | number | 1 | |
+| borderColor | NO | string | #121917 | |
